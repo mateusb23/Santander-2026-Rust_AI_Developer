@@ -5,10 +5,41 @@ fn main() {
     let nome: &str = "Fabiana";
 
     let ano_nascimento: i16 = 2002;
-    let mes_nascimento: i8 = 12; 
-    let ano_atual: i16 = 2024;
+    let mes_nascimento: i8 = 12;
+    let ano_atual: i16 = 2026;
 
     let idade: i16 = ano_atual - ano_nascimento;
 
-    println!("A idade da pessoa ({}) calculada para o ano de {} é de {} anos.", nome, ano_atual, idade);
+    let verifica_seculo = if ano_nascimento < 2000 {
+        "Nascida no século XX"
+    } else {
+        "Nascida no século XXI"
+    };
+
+    println!(
+        "{} em {} {}, {} tem {} anos e {}",
+        verifica_seculo,
+        ano_nascimento,
+        verifica_estado("PE"),
+        nome,
+        idade,
+        verifica_mes(mes_nascimento)
+    );
+}
+
+fn verifica_mes(mes_nascimento: i8) -> String {
+    if mes_nascimento == 12 {
+        return "ainda vai fezer aniversário".to_string();
+    } else {
+        return "já não fez aniversário".to_string();
+    }
+}
+
+fn verifica_estado(uf: &str) -> String {
+    match uf {
+        "SP" => "no estado de São Paulo".to_string(),
+        "RJ" => "no estado do Rio de Janeiro".to_string(),
+        "PE" => "no estado de Pernambuco".to_string(),
+        _ => "não mora em São Paulo nem no Rio de Janeiro nem em Pernambuco".to_string(),
+    }
 }
