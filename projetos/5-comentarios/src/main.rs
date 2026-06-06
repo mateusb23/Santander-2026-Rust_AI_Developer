@@ -11,9 +11,9 @@ fn main() {
     let idade: i16 = ano_atual - ano_nascimento;
 
     let verifica_seculo = if ano_nascimento < 2000 {
-        "Nascida no século XX"
+        "Nascido(a) no século XX"
     } else {
-        "Nascida no século XXI"
+        "Nascido(a) no século XXI"
     };
 
     println!(
@@ -29,9 +29,9 @@ fn main() {
 
 fn verifica_mes(mes_nascimento: i8) -> String {
     if mes_nascimento == 12 {
-        return "ainda vai fezer aniversário".to_string();
+        return "ainda vai fezer aniversário este ano.".to_string();
     } else {
-        return "já não fez aniversário".to_string();
+        return "já não fez aniversário este ano.".to_string();
     }
 }
 
