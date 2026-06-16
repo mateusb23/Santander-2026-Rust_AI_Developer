@@ -1,0 +1,1 @@
+C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\8-alocacao_de_memoria_no_rust\target\debug\alocacao_de_memoria_no_rust.exe: C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\8-alocacao_de_memoria_no_rust\src\main.rs
