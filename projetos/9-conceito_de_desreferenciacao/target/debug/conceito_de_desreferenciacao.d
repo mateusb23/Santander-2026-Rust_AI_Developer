@@ -1,0 +1,1 @@
+C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\9-conceito_de_desreferenciacao\target\debug\conceito_de_desreferenciacao.exe: C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\9-conceito_de_desreferenciacao\src\main.rs
