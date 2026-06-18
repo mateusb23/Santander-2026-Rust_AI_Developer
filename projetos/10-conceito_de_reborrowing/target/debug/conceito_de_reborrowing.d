@@ -1,0 +1,1 @@
+C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\10-conceito_de_reborrowing\target\debug\conceito_de_reborrowing.exe: C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\10-conceito_de_reborrowing\src\main.rs

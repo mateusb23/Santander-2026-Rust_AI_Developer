@@ -1,5 +1,5 @@
 fn main() {
-    let x: i32 = 4;
+    let x: i32 = 4; // Owner (proprietário) do valor 4 é a variável x. O valor 4 é armazenado na memória stack, e x é o responsável por gerenciar esse valor.
     let y: &i32 = &x; // y é uma referência para x, ou seja, y aponta para o mesmo local de memória onde x está armazenado, sem criar uma cópia do valor. Isso é um exemplo de desreferenciação, onde y é uma referência que aponta para o valor de x.
 
     println!("O valor de x é {}", x);

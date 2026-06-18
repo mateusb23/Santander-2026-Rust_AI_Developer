@@ -1,0 +1,1 @@
+C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\11-criando_string_na_memoria_heap\target\debug\criando_string_na_memoria_heap.exe: C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\11-criando_string_na_memoria_heap\src\main.rs
