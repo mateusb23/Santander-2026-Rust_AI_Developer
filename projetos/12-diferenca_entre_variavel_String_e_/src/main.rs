@@ -13,9 +13,9 @@
 //     println!("O valor da string é: {}, Endereço de memória: {:p}", s, s); // imprimindo o valor e o endereço de memória da string referenciada por s
 // }
 
-fn main() {
+/* fn main() {
     // Exemplo com String
-    let s1: String = String::from("Olá, mundo!"); // s1 possui a propriedade da string alocada na memória heap
+    let s1: String = String::from("Olá, mundo!"); // s1 possui a propriedade da string alocada na memória heap (variável que pode ser mutável e tem um tamanho dinâmico)
     let s2: String = s1.clone(); // clonando s1 para s2
 
     println!("String s1: {}, Endereço de memória: {:p}", s1, &s1);
@@ -25,6 +25,26 @@ fn main() {
     let s3: &str = "Olá, mundo!"; // s3 é um &str (slice de string imutável)
     let s4: &str = s3; // s4 é uma referência para s3, não há clonagem envolvida
 
-    println!("String s3: {}, Endereço de memória: {:p}", s3, &s3);
-    println!("String s4: {}, Endereço de memória: {:p}", s4, &s4);
+    println!("String s3: {}, Endereço de memória: {:p}", s3, s3);
+    println!("String s4: {}, Endereço de memória: {:p}", s4, s4);
+} */
+
+fn main() {
+    // Exemplo com String
+    let mut s1: String = String::from("Olá, mundo!"); // s1 é um String alocada na memória heap
+    s1 += " - teste";
+
+    let s2: String = s1.clone(); // Clonando a String s1 para criar s2
+
+    println!("String s1: {}, Endereço de memória: {:p}", s1, &s1);
+    println!("String s2: {}, Endereço de memória: {:p}", s2, &s2);
+
+    // Exemplo com &str
+    let s3: &str = "Olá, mundo!"; // s3 é um &str (slice de string imutável)
+    // s3 += " - teste"; // Isso causará um erro de compilação, pois &str é imutável
+
+    let s4: &str = s3; // s4 é uma referência para o mesmo &str s3
+
+    println!("String s3: {}, Endereço de memória: {:p}", s3, s3);
+    println!("String s4: {}, Endereço de memória: {:p}", s4, s4);
 }

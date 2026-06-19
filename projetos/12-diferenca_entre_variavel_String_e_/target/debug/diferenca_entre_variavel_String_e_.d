@@ -1,1 +1,1 @@
-C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\12-diferenca_entre_variavel_String_e_\target\debug\diferenca_entre_variavel_String_e_.exe: C:\Development\Rust\Santander-2026-Rust_AI_Developer\projetos\12-diferenca_entre_variavel_String_e_\src\main.rs
+/home/mateus-santos-bispo/Documentos/CURSOS/Santander-2026-Rust_AI_Developer/projetos/12-diferenca_entre_variavel_String_e_/target/debug/diferenca_entre_variavel_String_e_: /home/mateus-santos-bispo/Documentos/CURSOS/Santander-2026-Rust_AI_Developer/projetos/12-diferenca_entre_variavel_String_e_/src/main.rs

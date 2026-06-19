@@ -1,0 +1,1 @@
+/home/mateus-santos-bispo/Documentos/CURSOS/Santander-2026-Rust_AI_Developer/projetos/8-functions_recursivas/target/debug/functions_recursivas: /home/mateus-santos-bispo/Documentos/CURSOS/Santander-2026-Rust_AI_Developer/projetos/8-functions_recursivas/src/main.rs
